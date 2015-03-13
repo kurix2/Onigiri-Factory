@@ -1,0 +1,23 @@
+﻿Build started 12/24/2014 9:09:54 PM.
+     1>Project "C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\2015_Project.vcxproj" on node 2 (Build target(s)).
+     1>PreLinkEvent:
+         if not exist "C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\" mkdir "C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\"
+         :VCEnd
+         2 File(s) copied
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\2015_Project.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\2015_Project.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\2015_Project.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+         "C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\libcocos2d.lib"
+         "C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\libExtensions.lib"
+         "C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\libBox2D.lib"
+         "C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\libchipmunk.lib"
+     1>AppDelegate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         2015_Project.vcxproj -> C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\Debug.win32\2015_Project.exe
+     1>Done Building Project "C:\cocos2d-x-2.2.6\projects\2015_Project\proj.win32\2015_Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.37
